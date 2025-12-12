@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="../../static/styles.css" rel="stylesheet" type="text/css" />
     <title>Nutrition For You!</title>
 </head>
 
 <body>
-    <div>
+    <div class="container">
+        <div class="head-div">
         <h2>Nutriton For You!</h2>
+    </div>
+    <img class="clipart" src="../../static/images/clipart.png">
+    <div class="search-container">
+        <form method="POST">
+            <input type="text" name="query" id="query" placeholder="Search a food" required>
+            <button type="submit" id="search-btn">Search</button>
+        </form>
+    </div>
     </div>
 </body>
 
